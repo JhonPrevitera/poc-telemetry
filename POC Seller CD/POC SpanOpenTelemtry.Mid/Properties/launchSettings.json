@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "POC_SpanOpenTelemtry.Mid": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "QUEUE": "teste"
+      }
+    }
+  }
+}

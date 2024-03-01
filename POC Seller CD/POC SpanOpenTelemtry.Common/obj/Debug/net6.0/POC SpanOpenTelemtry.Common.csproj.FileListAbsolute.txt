@@ -1,0 +1,24 @@
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\bin\Debug\net6.0\POC SpanOpenTelemtry.Common.deps.json
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\bin\Debug\net6.0\POC SpanOpenTelemtry.Common.dll
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\bin\Debug\net6.0\POC SpanOpenTelemtry.Common.pdb
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.csproj.AssemblyReference.cache
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.AssemblyInfoInputs.cache
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.AssemblyInfo.cs
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.csproj.CoreCompileInputs.cache
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.dll
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\refint\POC SpanOpenTelemtry.Common.dll
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.pdb
+C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\ref\POC SpanOpenTelemtry.Common.dll
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\bin\Debug\net6.0\POC SpanOpenTelemtry.Common.deps.json
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\bin\Debug\net6.0\POC SpanOpenTelemtry.Common.dll
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\bin\Debug\net6.0\POC SpanOpenTelemtry.Common.pdb
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.csproj.AssemblyReference.cache
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.AssemblyInfoInputs.cache
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.AssemblyInfo.cs
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.csproj.CoreCompileInputs.cache
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.dll
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\refint\POC SpanOpenTelemtry.Common.dll
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\POC SpanOpenTelemtry.Common.pdb
+C:\Users\125268\Desktop\POC SalleCD\POC Seller CD\POC SpanOpenTelemtry.Common\obj\Debug\net6.0\ref\POC SpanOpenTelemtry.Common.dll

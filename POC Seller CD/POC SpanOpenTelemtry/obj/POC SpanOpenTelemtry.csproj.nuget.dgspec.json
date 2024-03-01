@@ -1,0 +1,238 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry\\POC SpanOpenTelemtry.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj",
+        "projectName": "POC SpanOpenTelemtry.Common",
+        "projectPath": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj",
+        "packagesPath": "C:\\Users\\125268\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\125268\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Core\\POC SpanOpenTelemtry.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Core\\POC SpanOpenTelemtry.Core.csproj",
+        "projectName": "POC SpanOpenTelemtry.Core",
+        "projectPath": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Core\\POC SpanOpenTelemtry.Core.csproj",
+        "packagesPath": "C:\\Users\\125268\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\125268\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj": {
+                "projectPath": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry\\POC SpanOpenTelemtry.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry\\POC SpanOpenTelemtry.csproj",
+        "projectName": "POC SpanOpenTelemtry",
+        "projectPath": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry\\POC SpanOpenTelemtry.csproj",
+        "packagesPath": "C:\\Users\\125268\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\125268\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj": {
+                "projectPath": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj"
+              },
+              "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Core\\POC SpanOpenTelemtry.Core.csproj": {
+                "projectPath": "C:\\Users\\125268\\Desktop\\POC SalleCD\\POC Seller CD\\POC SpanOpenTelemtry.Core\\POC SpanOpenTelemtry.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
