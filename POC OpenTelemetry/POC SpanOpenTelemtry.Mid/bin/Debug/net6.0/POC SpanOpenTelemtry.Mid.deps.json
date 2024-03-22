@@ -693,14 +693,13 @@
           "OpenTelemetry": "1.7.0",
           "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.7.0",
           "OpenTelemetry.Extensions.Hosting": "1.7.0",
-          "POC SpanOpenTelemtry.Common": "1.0.0",
-          "POC SpanOpenTelemtry.Core": "1.0.0"
+          "POC_SpanOpenTelemtry.Common": "1.0.0"
         },
         "runtime": {
           "POC SpanOpenTelemtry.dll": {}
         }
       },
-      "POC SpanOpenTelemtry.Common/1.0.0": {
+      "POC_SpanOpenTelemtry.Common/1.0.0": {
         "dependencies": {
           "Confluent.Kafka": "2.3.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
@@ -708,18 +707,7 @@
           "RabbitMQ.Client": "6.8.1"
         },
         "runtime": {
-          "POC SpanOpenTelemtry.Common.dll": {}
-        }
-      },
-      "POC SpanOpenTelemtry.Core/1.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Newtonsoft.Json": "13.0.3",
-          "POC SpanOpenTelemtry.Common": "1.0.0"
-        },
-        "runtime": {
-          "POC SpanOpenTelemtry.Core.dll": {}
+          "POC_SpanOpenTelemtry.Common.dll": {}
         }
       }
     }
@@ -1057,12 +1045,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "POC SpanOpenTelemtry.Common/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "POC SpanOpenTelemtry.Core/1.0.0": {
+    "POC_SpanOpenTelemtry.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

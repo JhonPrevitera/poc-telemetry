@@ -4,14 +4,14 @@
     "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Publish\\POC SpanOpenTelemtry.Publish.csproj": {}
   },
   "projects": {
-    "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj": {
+    "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Publish\\POC SpanOpenTelemtry.Publish.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj",
-        "projectName": "POC SpanOpenTelemtry.Common",
-        "projectPath": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj",
+        "projectUniqueName": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Publish\\POC SpanOpenTelemtry.Publish.csproj",
+        "projectName": "POC SpanOpenTelemtry.Publish",
+        "projectPath": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Publish\\POC SpanOpenTelemtry.Publish.csproj",
         "packagesPath": "C:\\Users\\125268\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Common\\obj\\",
+        "outputPath": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Publish\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\125268\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,7 +20,100 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexusdev.pmenos.com.br:8081/repository/nuget01/https://nexusdev.pmenos.com.br:8081/repository/nuget01/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC_SpanOpenTelemtry.Common\\POC_SpanOpenTelemtry.Common.csproj": {
+                "projectPath": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC_SpanOpenTelemtry.Common\\POC_SpanOpenTelemtry.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC_SpanOpenTelemtry.Common\\POC_SpanOpenTelemtry.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC_SpanOpenTelemtry.Common\\POC_SpanOpenTelemtry.Common.csproj",
+        "projectName": "POC_SpanOpenTelemtry.Common",
+        "projectPath": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC_SpanOpenTelemtry.Common\\POC_SpanOpenTelemtry.Common.csproj",
+        "packagesPath": "C:\\Users\\125268\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC_SpanOpenTelemtry.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\125268\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {},
           "https://nexusdev.pmenos.com.br:8081/repository/nuget01/https://nexusdev.pmenos.com.br:8081/repository/nuget01/": {}
         },
@@ -71,101 +164,6 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Publish\\POC SpanOpenTelemtry.Publish.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Publish\\POC SpanOpenTelemtry.Publish.csproj",
-        "projectName": "POC SpanOpenTelemtry.Publish",
-        "projectPath": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Publish\\POC SpanOpenTelemtry.Publish.csproj",
-        "packagesPath": "C:\\Users\\125268\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Publish\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\125268\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nexusdev.pmenos.com.br:8081/repository/nuget01/https://nexusdev.pmenos.com.br:8081/repository/nuget01/": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj": {
-                "projectPath": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Common\\POC SpanOpenTelemtry.Common.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.Extensions.Hosting": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "OpenTelemetry": {
-              "target": "Package",
-              "version": "[1.7.0, )"
-            },
-            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
-              "target": "Package",
-              "version": "[1.7.0, )"
-            },
-            "OpenTelemetry.Extensions.Hosting": {
-              "target": "Package",
-              "version": "[1.7.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[6.0.25, 6.0.25]"
             },
             {

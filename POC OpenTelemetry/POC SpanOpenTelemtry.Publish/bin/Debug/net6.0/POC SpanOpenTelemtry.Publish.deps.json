@@ -11,7 +11,8 @@
           "Microsoft.Extensions.Hosting": "6.0.1",
           "OpenTelemetry": "1.7.0",
           "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.7.0",
-          "OpenTelemetry.Extensions.Hosting": "1.7.0"
+          "OpenTelemetry.Extensions.Hosting": "1.7.0",
+          "POC_SpanOpenTelemtry.Common": "1.0.0"
         },
         "runtime": {
           "POC SpanOpenTelemtry.Publish.dll": {}
@@ -689,7 +690,7 @@
           }
         }
       },
-      "POC SpanOpenTelemtry.Common/1.0.0": {
+      "POC_SpanOpenTelemtry.Common/1.0.0": {
         "dependencies": {
           "Confluent.Kafka": "2.3.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
@@ -697,7 +698,7 @@
           "RabbitMQ.Client": "6.8.1"
         },
         "runtime": {
-          "POC SpanOpenTelemtry.Common.dll": {}
+          "POC_SpanOpenTelemtry.Common.dll": {}
         }
       }
     }
@@ -1030,7 +1031,7 @@
       "path": "system.threading.channels/7.0.0",
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
-    "POC SpanOpenTelemtry.Common/1.0.0": {
+    "POC_SpanOpenTelemtry.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

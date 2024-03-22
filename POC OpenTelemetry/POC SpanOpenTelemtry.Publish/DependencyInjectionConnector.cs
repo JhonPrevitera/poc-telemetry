@@ -1,21 +1,15 @@
-﻿using POC_SpanOpenTelemtry.Common;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics.CodeAnalysis;
+using POC_SpanOpenTelemtry.Common;
 
-namespace POC_SpanOpenTelemtry.Publish
+namespace POC_SpanOpenTelemtry.Publish;
+
+[ExcludeFromCodeCoverage]
+public static class DependencyInjectionConnector
 {
-
-    [ExcludeFromCodeCoverage]
-    public static class DependencyInjectionConnector
+    public static IServiceCollection RegisterServices(this IServiceCollection services, IConfiguration configuration,
+        string clientId)
     {
-        public static IServiceCollection RegisterServices(this IServiceCollection services, IConfiguration configuration, string clientId)
-        {
-            services.Configure<ActivitySource>(configuration.GetSection(nameof(ActivitySource)));
-            return services;
-        }
+        services.Configure<ActivitySource>(configuration.GetSection(nameof(ActivitySource)));
+        return services;
     }
 }

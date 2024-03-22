@@ -84,15 +84,6 @@ C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Pub
 C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.genruntimeconfig.cache
 C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\ref\POC SpanOpenTelemtry.Publish.dll
 C:\Users\125268\Desktop\POC Worker\POC SpanOpenTelemtry\POC SpanOpenTelemtry.Publish\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.csproj.AssemblyReference.cache
-C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.AssemblyInfoInputs.cache
-C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.AssemblyInfo.cs
-C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.csproj.CoreCompileInputs.cache
-C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.sourcelink.json
-C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.dll
-C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\refint\POC SpanOpenTelemtry.Publish.dll
-C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.pdb
 C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\bin\Debug\net6.0\appsettings.json
 C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\bin\Debug\net6.0\POC SpanOpenTelemtry.Publish.exe
@@ -168,8 +159,17 @@ C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.P
 C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\bin\Debug\net6.0\runtimes\win-x86\native\zstd.dll
 C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
-C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\bin\Debug\net6.0\POC SpanOpenTelemtry.Common.dll
-C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\bin\Debug\net6.0\POC SpanOpenTelemtry.Common.pdb
+C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\bin\Debug\net6.0\POC_SpanOpenTelemtry.Common.dll
+C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\bin\Debug\net6.0\POC_SpanOpenTelemtry.Common.pdb
+C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.csproj.AssemblyReference.cache
+C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.AssemblyInfoInputs.cache
+C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.AssemblyInfo.cs
+C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.csproj.CoreCompileInputs.cache
+C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.sourcelink.json
 C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.csproj.CopyComplete
+C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.dll
+C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\refint\POC SpanOpenTelemtry.Publish.dll
+C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.pdb
 C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\POC SpanOpenTelemtry.Publish.genruntimeconfig.cache
 C:\Users\125268\Desktop\Poc\pocTelemtry\POC OpenTelemetry\POC SpanOpenTelemtry.Publish\obj\Debug\net6.0\ref\POC SpanOpenTelemtry.Publish.dll

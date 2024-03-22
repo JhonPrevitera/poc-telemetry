@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "74tyINH8Tg9h/gYduetJtjgNkTzgmoEdImzdDxMVoFlFz//DZS7HxHh8iZc1sBzMIyZ0Fj12KDWfCePz06hT3A==",
+  "dgSpecHash": "f7U2VNE9rStGN98HrQo9behpVZl3Iix9NJlSVrxQiTP5BP7rJ1gKjqVxHoSWNfV+HDWzSI7AD622KHW5AXfnnw==",
   "success": true,
   "projectFilePath": "C:\\Users\\125268\\Desktop\\Poc\\pocTelemtry\\POC OpenTelemetry\\POC SpanOpenTelemtry.Mid\\POC SpanOpenTelemtry.Mid.csproj",
   "expectedPackageFiles": [

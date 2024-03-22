@@ -990,8 +990,7 @@
           "OpenTelemetry": "1.7.0",
           "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.7.0",
           "OpenTelemetry.Extensions.Hosting": "1.7.0",
-          "POC SpanOpenTelemtry.Common": "1.0.0",
-          "POC SpanOpenTelemtry.Core": "1.0.0"
+          "POC_SpanOpenTelemtry.Common": "1.0.0"
         },
         "compile": {
           "bin/placeholder/POC SpanOpenTelemtry.dll": {}
@@ -1000,7 +999,7 @@
           "bin/placeholder/POC SpanOpenTelemtry.dll": {}
         }
       },
-      "POC SpanOpenTelemtry.Common/1.0.0": {
+      "POC_SpanOpenTelemtry.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1010,26 +1009,10 @@
           "RabbitMQ.Client": "6.8.1"
         },
         "compile": {
-          "bin/placeholder/POC SpanOpenTelemtry.Common.dll": {}
+          "bin/placeholder/POC_SpanOpenTelemtry.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/POC SpanOpenTelemtry.Common.dll": {}
-        }
-      },
-      "POC SpanOpenTelemtry.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Newtonsoft.Json": "13.0.3",
-          "POC SpanOpenTelemtry.Common": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/POC SpanOpenTelemtry.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/POC SpanOpenTelemtry.Core.dll": {}
+          "bin/placeholder/POC_SpanOpenTelemtry.Common.dll": {}
         }
       }
     }
@@ -2332,15 +2315,10 @@
       "path": "../POC SpanOpenTelemtry/POC SpanOpenTelemtry.csproj",
       "msbuildProject": "../POC SpanOpenTelemtry/POC SpanOpenTelemtry.csproj"
     },
-    "POC SpanOpenTelemtry.Common/1.0.0": {
+    "POC_SpanOpenTelemtry.Common/1.0.0": {
       "type": "project",
-      "path": "../POC SpanOpenTelemtry.Common/POC SpanOpenTelemtry.Common.csproj",
-      "msbuildProject": "../POC SpanOpenTelemtry.Common/POC SpanOpenTelemtry.Common.csproj"
-    },
-    "POC SpanOpenTelemtry.Core/1.0.0": {
-      "type": "project",
-      "path": "../POC SpanOpenTelemtry.Core/POC SpanOpenTelemtry.Core.csproj",
-      "msbuildProject": "../POC SpanOpenTelemtry.Core/POC SpanOpenTelemtry.Core.csproj"
+      "path": "../POC_SpanOpenTelemtry.Common/POC_SpanOpenTelemtry.Common.csproj",
+      "msbuildProject": "../POC_SpanOpenTelemtry.Common/POC_SpanOpenTelemtry.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2368,7 +2346,6 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nexusdev.pmenos.com.br:8081/repository/nuget01/https://nexusdev.pmenos.com.br:8081/repository/nuget01/": {}
       },

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("POC SpanOpenTelemtry.Publish")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af1be7ca7c9a45959fe2932be9b2cbb89e7546b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("POC SpanOpenTelemtry.Publish")]
 [assembly: System.Reflection.AssemblyTitleAttribute("POC SpanOpenTelemtry.Publish")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
