@@ -1,0 +1,16 @@
+﻿{
+  "profiles": {
+    "POC_SpanOpenTelemetry.Second": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "QUEUE": "test",
+        "CLIENTID": "WorkerSecond",
+        "BOOTSTRAPSERVERS": "localhost:9092",
+        "GROUPID": "PBWorker",
+        "TOPIC": "test2"
+      }
+    }
+  }
+}

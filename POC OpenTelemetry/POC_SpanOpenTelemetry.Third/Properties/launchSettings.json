@@ -1,0 +1,15 @@
+﻿{
+  "profiles": {
+    "POC_SpanOpenTelemetry.Third": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "TOPIC": "topic2",
+        "GROUPID": "WorkerThird",
+        "CLIENTID": "Workers",
+        "BOOTSTRAPSERVERS": "localhost:9092"
+      }
+    }
+  }
+}
