@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("POC_SpanOpenTelemtry.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e5994c6f86c2512dd79dddaa3e8a58b562aa1b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("POC_SpanOpenTelemtry.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("POC_SpanOpenTelemtry.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
