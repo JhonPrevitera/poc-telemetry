@@ -23,6 +23,7 @@ public class Worker(ILogger<RabbitMqService> loggerMq) : BackgroundService
             _rabbitMq.SendMessage(message.Body!, topicPub, message.Headers);
             loggerMq.LogInformation($"{message.Headers}");
             Activity.Current?.AddEvent(new ActivityEvent("passed through here"));
+            Activity.Current?.SetTag($"{ctx}", ctx.ToString());
             await Task.Delay(1000, stoppingToken);
         }
     }

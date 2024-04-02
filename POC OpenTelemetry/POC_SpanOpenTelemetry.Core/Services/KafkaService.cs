@@ -3,7 +3,6 @@ using System.Text;
 using Confluent.Kafka;
 using Confluent.Kafka.Extensions.Diagnostics;
 using Microsoft.Extensions.Logging;
-using POC_SpanOpenTelemetry.Core.Config;
 using POC_SpanOpenTelemetry.Core.Services.Config;
 using POC_SpanOpenTelemetry.Core.Services.Contracts;
 

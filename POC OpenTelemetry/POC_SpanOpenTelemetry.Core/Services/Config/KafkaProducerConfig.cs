@@ -1,7 +1,7 @@
 
 using Confluent.Kafka;
 
-namespace POC_SpanOpenTelemetry.Core.Config;
+namespace POC_SpanOpenTelemetry.Core.Services.Config;
 
 public class KafkaProducerConfig
 {

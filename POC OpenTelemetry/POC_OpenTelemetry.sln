@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC_SpanOpenTelemetry.Secon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC_SpanOpenTelemetry.Core", "POC_SpanOpenTelemetry.Core\POC_SpanOpenTelemetry.Core.csproj", "{ADE9E403-6CD8-4796-AC58-AFC76A3C7BDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC_SpanOpenTelemetry.Api", "POC_SpanOpenTelemetry.Api\POC_SpanOpenTelemetry.Api.csproj", "{335E998E-B4D5-4642-9D62-BC7E27D1ACA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC_SpanOpenTelemetry.Api.test", "POC_SpanOpenTelemetry.Api.test\POC_SpanOpenTelemetry.Api.test.csproj", "{72120A50-899D-4619-A9BC-D3003559B4CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{ADE9E403-6CD8-4796-AC58-AFC76A3C7BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE9E403-6CD8-4796-AC58-AFC76A3C7BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE9E403-6CD8-4796-AC58-AFC76A3C7BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335E998E-B4D5-4642-9D62-BC7E27D1ACA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335E998E-B4D5-4642-9D62-BC7E27D1ACA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335E998E-B4D5-4642-9D62-BC7E27D1ACA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335E998E-B4D5-4642-9D62-BC7E27D1ACA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72120A50-899D-4619-A9BC-D3003559B4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72120A50-899D-4619-A9BC-D3003559B4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72120A50-899D-4619-A9BC-D3003559B4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72120A50-899D-4619-A9BC-D3003559B4CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

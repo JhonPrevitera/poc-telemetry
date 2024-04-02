@@ -4,15 +4,9 @@ using Microsoft.Extensions.Logging;
 
 namespace POC_SpanOpenTelemetry.Core.Services.Config
 {
-    public class KafkaConsumerConfig
+    public class KafkaConsumerConfig(ILogger<KafkaService> logger)
     {
         private readonly string _topic = Environment.GetEnvironmentVariable("TOPIC")!;
-        private readonly ILogger<KafkaService> _logger;
-
-        public KafkaConsumerConfig(ILogger<KafkaService> logger)
-        {
-            _logger = logger;
-        }
 
         private readonly ConsumerConfig _config = new()
         {
@@ -38,14 +32,14 @@ namespace POC_SpanOpenTelemetry.Core.Services.Config
 
         private void ConsumerOnPartitionsAssigned(IConsumer<string, string> sender, List<TopicPartition> partitions)
         {
-            _logger?.LogInformation(
+            logger?.LogInformation(
                 $"ASSIGNED PARTITIONS: [{string.Join(",", partitions.Select(p => $"TOPIC:\"{p.Topic}\" PARTITION: {p.Partition.Value}"))}]");
         }
 
         private void ConsumerOnPartitionsRevokedHandler(IConsumer<string, string> sender,
             List<TopicPartitionOffset> topicPartitionOffsets)
         {
-            _logger?.LogInformation(
+            logger?.LogInformation(
                 $"REVOKED PARTITIONS: [{string.Join(",", topicPartitionOffsets.Select(p => $"TOPIC:\"{p.Topic}\" PARTITION:{p.Partition.Value}"))}]");
         }
     }

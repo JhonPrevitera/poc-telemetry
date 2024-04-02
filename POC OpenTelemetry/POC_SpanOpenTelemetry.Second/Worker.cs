@@ -21,9 +21,10 @@ public class Worker(ILogger<RabbitMqService> loggerMq, ILogger<KafkaService> log
             var ctx = Utils.GetContext(null, traceByte);
             using var activity = _activitySource.StartActivity(nameof(ExecuteAsync), ActivityKind.Server, ctx);
             _rabbitMq.SendMessage(message.Body!, QueuePub, message.Headers);
-            _kafkaService.ProduceMessage(TopicPub, message.Body?.ToString()!, ctx.ToString()!);
+            _kafkaService.ProduceMessage(TopicPub, message.Body?.ToString()!, activity!.Id!);
             loggerMq.LogInformation($"{message.Headers}");
             Activity.Current?.AddEvent(new ActivityEvent("passed through here"));
+            Activity.Current?.SetTag($"{ctx}", ctx.ToString());
             await Task.Delay(1000, stoppingToken);
         }
     }
