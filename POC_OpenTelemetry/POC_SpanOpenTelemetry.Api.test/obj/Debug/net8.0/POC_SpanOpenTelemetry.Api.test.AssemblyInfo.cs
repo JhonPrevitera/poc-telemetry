@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("POC_SpanOpenTelemetry.Api.test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+663cc157c716e4f8840e50d429a316f43212eb14")]
 [assembly: System.Reflection.AssemblyProductAttribute("POC_SpanOpenTelemetry.Api.test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("POC_SpanOpenTelemetry.Api.test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
